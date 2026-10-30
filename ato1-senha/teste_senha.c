@@ -8,7 +8,7 @@
 // Compilar (macOS):
 //   cc teste_senha.c senha.c barra_tokens.c tokens_provisorio.c -o teste_senha $(pkg-config --cflags --libs raylib)
 //
-// Teclas: numeros, BACKSPACE, ENTER. No pop-up: clique ou 1 / 2.
+// Clique nos fragmentos (ou digite K, 7, Y, 2), BACKSPACE devolve, ENTER confirma. No pop-up: clique ou 1 / 2.
 // No quarto provisorio: o botao "Tentar a senha novamente" volta ao PC. Depois de acertar: R reinicia.
 
 #include "raylib.h"
@@ -50,7 +50,7 @@ int main(void)
         if (noQuarto) {
             ClearBackground((Color){ 60, 45, 70, 255 });
             DrawText("QUARTO (tela provisoria)", 40, 40, 30, RAYWHITE);
-            DrawText("Aqui ficam os hotspots: diario (07) e calendario (dia 12).", 40, 90, 20, RAYWHITE);
+            DrawText("Aqui ficam os hotspots: diario (07) e calendario de 2007.", 40, 90, 20, RAYWHITE);
             Senha_DesenharBotaoTentarDeNovo();
         } else {
             Senha_Desenhar();
