@@ -285,12 +285,12 @@ Este relato foi elaborado retrospectivamente, com base nas experiências dos par
 
 ## Contribuições das duplas
 
-| Dupla | Formato | Trabalho realizado |
-|---|---|---|
-| Vitória e Aline | Chamada com tela compartilhada | Implementação da US08: exploração do quarto em 2007. |
-| Juliana e Luiz Mario | Presencial, na faculdade | Implementação do reprodutor de áudio. |
-| Ana Rita e Luiz Mario | Presencial, na faculdade | Inserção dos áudios no código do jogo. |
-| Vitória e Luiz Mario | Chamada com tela compartilhada | Integração do reprodutor de áudio com o código da US08. |
+| Dupla | Formato | Trabalho realizado | Papéis desempenhados |
+|---|---|---|---|
+| Vitória e Aline | Chamada com tela compartilhada | Implementação da US08: exploração do quarto em 2007. | Dev / Dev |
+| Juliana e Luiz Mario | Presencial, na faculdade | Implementação do reprodutor de áudio. | Dev / Dev |
+| Ana Rita e Luiz Mario | Presencial, na faculdade | Inserção dos áudios no código do jogo. | Dev / Dev |
+| Vitória e Luiz Mario | Chamada com tela compartilhada | Integração do reprodutor de áudio com o código da US08. | Dev / Dev |
 
 ## Experiência e aprendizados
 
