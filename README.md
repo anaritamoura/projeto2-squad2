@@ -289,18 +289,18 @@ Este relato foi elaborado retrospectivamente, com base nas experiências dos par
 
 | História | Responsável | Formato | Papéis desempenhados | Trabalho realizado |
 |---|---|---|---|---|
-| US01 — Iniciar novo jogo | Vitória | Individual | — | Implementação da funcionalidade de início de uma nova partida. |
-| US02 — Introdução da protagonista | Vitória | Individual | — | Implementação da apresentação inicial da protagonista. |
-| US03 — Transporte para 2007 | Vitória | Individual | — | Implementação da transição narrativa para o ano de 2007. |
+| US01 — Iniciar novo jogo | Vitória e Aline | Individual | — | Implementação da funcionalidade de início de uma nova partida. |
+| US02 — Introdução da protagonista | Vitória e Aline | Individual | — | Implementação da apresentação inicial da protagonista. |
+| US03 — Transporte para 2007 | Vitória e Ana Rita | Individual | — | Implementação da transição narrativa para o ano de 2007. |
 | US04 — Caixa de diálogo com identificação do falante | Vitória | Individual | — | Implementação das caixas de diálogo com identificação dos personagens. |
-| US05 — Avançar diálogos por comando | Vitória | Individual | — | Implementação do avanço dos diálogos por comando do jogador. |
-| US06 — Interagir com a IA | Vitória | Individual | — | Implementação da interação com a personagem de inteligência artificial. |
+| US05 — Avançar diálogos por comando | Vitória e Ana Rita | Individual | — | Implementação do avanço dos diálogos por comando do jogador. |
+| US06 — Interagir com a IA | Vitória e Juliana | Individual | — | Implementação da interação com a personagem de inteligência artificial. |
 | US07 — Escolhas alteram diálogos ou acontecimentos seguintes | Vitória | Individual | — | Implementação das escolhas e de suas consequências na narrativa. |
-| US09 — Cena do ambiente escolar | Vitória | Individual | — | Implementação da cena ambientada no espaço escolar. |
-| US11 — Feedback visual em opções interativas | Vitória | Individual | — | Implementação dos indicadores visuais para as opções interativas. |
-| US14 — Sair ou retornar ao menu | Vitória | Individual | — | Implementação das funcionalidades de pausa e retorno ao menu. |
-| US15 — Desfecho influenciado pelas escolhas | Vitória | Individual | — | Implementação dos desfechos narrativos conforme as escolhas realizadas. |
-| US16 — Tela de encerramento | Vitória | Individual | — | Implementação da tela final e dos créditos do jogo. |
+| US09 — Cena do ambiente escolar | Vitória e Juliana | Individual | — | Implementação da cena ambientada no espaço escolar. |
+| US11 — Feedback visual em opções interativas | Vitória e Luiz Mario | Individual | — | Implementação dos indicadores visuais para as opções interativas. |
+| US14 — Sair ou retornar ao menu | Vitória e Luiz Mario | Individual | — | Implementação das funcionalidades de pausa e retorno ao menu. |
+| US15 — Desfecho influenciado pelas escolhas | Vitória e Aline | Individual | — | Implementação dos desfechos narrativos conforme as escolhas realizadas. |
+| US16 — Tela de encerramento | Vitória e Ana Rita | Individual | — | Implementação da tela final e dos créditos do jogo. |
 
 ### Sprint 2
 
