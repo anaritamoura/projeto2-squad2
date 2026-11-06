@@ -279,18 +279,37 @@ O vídeo mostra o jogo rodando, o tratamento de erros em ação e a missão comp
 
 ## Programação em pares
 
-Durante a sprint, a equipe realizou sessões de programação em pares, remotamente por chamada com compartilhamento de tela e presencialmente na faculdade. Os integrantes alternaram entre os papéis de **piloto**, responsável por escrever o código, e **navegador**, responsável por acompanhar a implementação, revisar e discutir soluções. Além dessas sessões, a equipe analisou o código em conjunto semanalmente.
+Durante as sprints, a equipe realizou sessões de programação em pares, remotamente por chamada com compartilhamento de tela e presencialmente na faculdade. Os integrantes alternaram entre os papéis de **piloto**, responsável por escrever o código, e **navegador**, responsável por acompanhar a implementação, revisar e discutir soluções. Além dessas sessões, a equipe analisou o código em conjunto semanalmente.
 
 Este relato foi elaborado retrospectivamente, com base nas experiências dos participantes.
 
-## Contribuições das duplas
+## Contribuições por sprint
 
-| Dupla | Formato | Trabalho realizado | Papéis desempenhados |
-|---|---|---|---|
-| Vitória e Aline | Chamada com tela compartilhada | Implementação da US08: exploração do quarto em 2007. | Dev / Dev |
-| Juliana e Luiz Mario | Presencial, na faculdade | Implementação do reprodutor de áudio. | Dev / Dev |
-| Ana Rita e Luiz Mario | Presencial, na faculdade | Inserção dos áudios no código do jogo. | Dev / Dev |
-| Vitória e Luiz Mario | Chamada com tela compartilhada | Integração do reprodutor de áudio com o código da US08. | Dev / Dev |
+### Sprint 1
+
+| História | Responsável | Formato | Papéis desempenhados | Trabalho realizado |
+|---|---|---|---|---|
+| US01 — Iniciar novo jogo | Vitória e Aline | Remoto, com compartilhamento de tela | Piloto / Navegador | Implementação da funcionalidade de início de uma nova partida. |
+| US02 — Introdução da protagonista | Vitória e Aline | Remoto, com compartilhamento de tela | Piloto / Navegador | Implementação da apresentação inicial da protagonista. |
+| US03 — Transporte para 2007 | Vitória e Ana Rita | Remoto, com compartilhamento de tela | Piloto / Navegador | Implementação da transição narrativa para o ano de 2007. |
+| US04 — Caixa de diálogo com identificação do falante | Vitória e Juliana | Remoto, com compartilhamento de tela | Piloto / Navegador | Implementação das caixas de diálogo com identificação dos personagens. |
+| US05 — Avançar diálogos por comando | Vitória e Ana Rita | Remoto, com compartilhamento de tela | Piloto / Navegador | Implementação do avanço dos diálogos por comando do jogador. |
+| US06 — Interagir com a IA | Vitória e Juliana | Remoto, com compartilhamento de tela | Piloto / Navegador | Implementação da interação com a personagem de inteligência artificial. |
+| US07 — Escolhas alteram diálogos ou acontecimentos seguintes | Vitória e Luiz Mario | Remoto, com compartilhamento de tela | Piloto / Navegador | Implementação das escolhas e de suas consequências na narrativa. |
+| US09 — Cena do ambiente escolar | Vitória e Juliana | Remoto, com compartilhamento de tela | Piloto / Navegador | Implementação da cena ambientada no espaço escolar. |
+| US11 — Feedback visual em opções interativas | Vitória e Luiz Mario | Remoto, com compartilhamento de tela | Piloto / Navegador | Implementação dos indicadores visuais para as opções interativas. |
+| US14 — Sair ou retornar ao menu | Vitória e Luiz Mario | Remoto, com compartilhamento de tela | Piloto / Navegador | Implementação das funcionalidades de pausa e retorno ao menu. |
+| US15 — Desfecho influenciado pelas escolhas | Vitória e Aline | Remoto, com compartilhamento de tela | Piloto / Navegador | Implementação dos desfechos narrativos conforme as escolhas realizadas. |
+| US16 — Tela de encerramento | Vitória e Ana Rita | Remoto, com compartilhamento de tela | Piloto / Navegador | Implementação da tela final e dos créditos do jogo. |
+
+### Sprint 2
+
+| História | Dupla | Formato | Papéis desempenhados | Trabalho realizado |
+|---|---|---|---|---|
+| US08 — Explorar o quarto da protagonista em 2007 | Vitória e Aline | Remoto, com compartilhamento de tela | Dev / Dev | Implementação da exploração do quarto em 2007 e integração do reprodutor de áudio com o código da história. |
+| US10 — Interagir com objetos de tecnologia e cultura dos anos 2000 | Vitória e Aline | Remoto, com compartilhamento de tela | Dev / Dev | Implementação da interação com objetos do ambiente relacionados à tecnologia e à cultura dos anos 2000. |
+| US12 — Música ambiente por cena | Juliana e Luiz Mario | Presencial, na faculdade | Dev / Dev | Implementação do reprodutor de áudio. |
+| US13 — Efeitos sonoros | Ana Rita e Luiz Mario | Presencial, na faculdade | Dev / Dev | Inserção dos áudios no código do jogo. |
 
 ## Experiência e aprendizados
 
