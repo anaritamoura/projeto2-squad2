@@ -15,6 +15,7 @@
 - [Sobre o Projeto](#sobre)
 - [Gestão do Projeto](#gestao)
 - [Épicos e Histórias de Usuário](#epicos)
+- [Repositórios e versões do jogo](#repositorios)
 - [Demonstração da Solução](#demonstracao)
   - [Protótipo Lo-Fi](#prototipo)
   - [Núcleo do Jogo em C (PIF)](#entrega-pif)
@@ -118,7 +119,11 @@ O desenvolvimento do projeto é acompanhado por meio das ferramentas de gerencia
 
 🔗 **Trello:** [Acessar Trello](https://trello.com/b/t0u8Iplf)
 
-**Última atualização:** 21/10/2026
+Para conhecer as orientações de configuração do ambiente, compilação e execução do jogo, organização de branches, commits, pull requests, testes e registro da programação em pares, consulte o seguinte link:
+
+📘 **Guia de contribuição:** [CONTRIBUTING.md](CONTRIBUTING.md)
+
+**Última atualização:** 25/11/2026
 
 ---
 
@@ -195,6 +200,39 @@ As telas e os fluxos estão organizados por história em [`docs/prototipos`](doc
 |---|---|:---:|:---:|:---:|
 | `US12` | Música ambiente por cena | [Diagrama](docs/diagramas/US12-diagrama-atividades.png) | [Lo-Fi](https://www.figma.com/proto/SOWkT7Av6D6rrZESX9XgtQ/Prot%C3%B3tipo---FDS---Entrega-2?node-id=277-31&p=f&t=1PD0gciLPUfIR1Lr-0&scaling=contain&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=277%3A31&show-proto-sidebar=1) / [Hi-Fi](https://drive.google.com/file/d/1GI2XnuIXv_WsrAibHfJz-sT6ZhdGEibN/view?usp=sharing) | ✅ |
 | `US13` | Efeitos sonoros de interações e eventos | [Diagrama](docs/diagramas/US13-diagrama-atividades.png) | [Lo-Fi](https://www.figma.com/proto/SOWkT7Av6D6rrZESX9XgtQ/Prot%C3%B3tipo---FDS---Entrega-2?node-id=277-35&p=f&t=1PD0gciLPUfIR1Lr-0&scaling=contain&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=277%3A35&show-proto-sidebar=1) / [Hi-Fi](https://drive.google.com/file/d/1GI2XnuIXv_WsrAibHfJz-sT6ZhdGEibN/view?usp=sharing) | ✅ |
+
+---
+
+## 🆕 Novas histórias de usuário — Sprint 3
+
+As histórias de usuário US17, US19, US20, US21, US24 e US25 foram definidas após a etapa de elaboração dos diagramas de classe e protótipos Lo-Fi. Por esse motivo, não possuem esses artefatos, tendo suas funcionalidades desenvolvidas diretamente no jogo, com base nas necessidades identificadas durante o desenvolvimento.
+
+**Legenda:** N/A (*Not Applicable*) — Não se aplica. Indica que o artefato não foi elaborado para a respectiva história de usuário.
+
+### 🏫 Ato 2 — Reencontro na escola (Epic 8)
+
+| Story | Descrição | Modelagem | Protótipo | Status |
+|---|---|:---:|:---:|:---:|
+| `US17` | Vivenciar o reencontro no corredor da escola | N/A | N/A | ✅ |
+
+---
+
+### 🔐 Minijogo da senha (Epic 9)
+
+| Story | Descrição | Modelagem | Protótipo | Status |
+|---|---|:---:|:---:|:---:|
+| `US19` | Descobrir a senha do computador por meio de lógica proposicional | N/A | N/A | ✅ |
+| `US20` | Visualizar as pistas e os avisos do desafio de senha | N/A | N/A | ✅ |
+| `US21` | Receber a oferta de ajuda da IA após três erros no desafio de senha | N/A | N/A | ✅ |
+
+---
+
+### 🎤 Discurso / Desfecho (Epic 10)
+
+| Story | Descrição | Modelagem | Protótipo | Status |
+|---|---|:---:|:---:|:---:|
+| `US24` | Escolher as palavras do discurso da protagonista | N/A | N/A | ✅ |
+| `US25` | Digitar as palavras e acompanhar o resultado do discurso | N/A | N/A | ✅ |
 
 ---
 
@@ -319,6 +357,25 @@ A principal dificuldade foi dividir a implementação dos sons entre diferentes 
 
 Para a próxima sprint, a proposta é registrar cada sessão com três informações: **dupla, tarefa realizada e resultado**, além de associar o trabalho à história e ao commit ou pull request correspondente.
 
+### Sprint 3
+
+| História | Dupla | Formato | Papéis desempenhados | Trabalho realizado |
+|---|---|---|---|---|
+| US17 — Vivenciar o reencontro no corredor da escola | Vitória | Individual, remoto | Dev | Definição da composição visual do corredor, dos personagens e da sequência dos diálogos. Implementação do cenário em C/Raylib e integração das falas à caixa de diálogo existente. |
+| US19 — Descobrir a senha do computador por meio de lógica proposicional | Aline e Ana Rita | Remoto, com compartilhamento de tela | Dev / Dev | Implementação do desafio de senha dividido em duas etapas: seleção dos caracteres correspondentes às pistas e organização dos caracteres conforme as proposições lógicas para formar a senha Y2K7. |
+| US20 — Visualizar as pistas e os avisos do desafio de senha | Aline e Ana Rita | Remoto, com compartilhamento de tela | Dev / Dev | Implementação da exibição permanente das pistas, do indicador de etapa, dos avisos temporários e da barra de tokens da IA durante o desafio. |
+| US21 — Receber a oferta de ajuda da IA após três erros no desafio de senha | Aline e Ana Rita | Remoto, com compartilhamento de tela | Dev / Dev | Implementação da oferta de ajuda da IA após três erros na segunda etapa, incluindo o consumo de token e a revelação das posições dos caracteres Y e K. |
+| US24 — Escolher as palavras do discurso da protagonista | Juliana e Luiz Mario | Remoto, com compartilhamento de tela | Dev / Dev | Implementação da seleção das palavras incompletas do discurso, com alternativas de resposta e possibilidade de utilizar a ajuda da IA. |
+| US25 — Digitar as palavras e acompanhar o resultado do discurso | Juliana e Luiz Mario | Remoto, com compartilhamento de tela | Dev / Dev | Implementação da etapa de digitação das palavras embaralhadas, com cronômetro, acompanhamento do progresso, feedback visual e sonoro e apresentação do resultado final conforme o desempenho do jogador. |
+
+## Experiência e aprendizados
+
+A implementação das histórias de usuário da Sprint 3 permitiu avançar em funcionalidades importantes do jogo, como o desafio da senha (US19, US20 e US21), o reencontro no corredor da escola (US17) e o discurso da protagonista (US24 e US25). O desenvolvimento dessas funcionalidades contribuiu para a integração e evolução do jogo.
+
+Um dos desafios foi implementar histórias que não possuíam diagramas de classe ou protótipos Lo-Fi previamente elaborados, exigindo que as decisões fossem tomadas diretamente durante o desenvolvimento. Essa experiência reforçou a importância do planejamento, da organização do código e da comunicação entre os integrantes para garantir a integração das funcionalidades.
+
+O trabalho realizado durante a sprint contribuiu para consolidar os conhecimentos adquiridos ao longo do projeto e reforçou a importância do trabalho colaborativo, da adaptação durante o desenvolvimento e do registro das atividades realizadas.
+
 ---
 
 <a id="equipe"></a>
@@ -349,87 +406,65 @@ Para a próxima sprint, a proposta é registrar cada sessão com três informaç
 
 ---
 
-<a id="organizacao"></a>
-# 📁 Organização do Repositório
+<a id="repositorios"></a>
+# 🗂️ Repositórios e versões do jogo
 
-```text
-📦 projeto2-squad2
-├── 📁 assets
-│   ├── backlog.png
-│   ├── backlog1.png
-│   ├── logo_smalld.png
-│   └── [IMAGENS E EVIDÊNCIAS DO PROJETO]
-│
-├── 📁 docs
-│   ├── 📁 diagramas
-│   │   ├── US01-diagrama-atividades.png
-│   │   ├── US02-diagrama-atividades.png
-│   │   ├── US03-diagrama-atividades.png
-│   │   ├── US04-diagrama-atividades.png
-│   │   ├── US05-diagrama-atividades.png
-│   │   ├── US06-diagrama-atividades.png
-│   │   ├── US07-diagrama-atividades.png
-│   │   ├── US08-diagrama-atividades.png
-│   │   ├── US09-diagrama-atividades.png
-│   │   ├── US10-diagrama-atividades.png
-│   │   ├── US11-diagrama-atividades.png
-│   │   ├── US12-diagrama-atividades.png
-│   │   ├── US13-diagrama-atividades.png
-│   │   ├── US14-diagrama-atividades.png
-│   │   ├── US15-diagrama-atividades.png
-│   │   └── US16-diagrama-atividades.png
-│   │
-│   ├── 📁 screencasting
-│   │   └── screencast.MOV
-│   └── 📁 prototipos
-│       ├── 📁 US01
-│       ├── 📁 US02
-│       ├── 📁 US03
-│       ├── 📁 US04
-│       ├── 📁 US05
-│       ├── 📁 US06
-│       ├── 📁 US07
-│       ├── 📁 US08
-│       ├── 📁 US09
-│       ├── 📁 US10
-│       ├── 📁 US11
-│       ├── 📁 US12
-│       ├── 📁 US13
-│       ├── 📁 US14
-│       ├── 📁 US15
-│       └── 📁 US16
-│
-├── 📁 entrega_pif
-│   └── 📁 re7
-│       ├── 📁 assets
-│       │   ├── 📁 backgrounds
-│       │   ├── 📁 characters
-│       │   ├── 📁 music
-│       │   ├── 📁 sounds
-│       │   └── 📁 ui
-│       ├── 📁 docs
-│       │   └── documentacao_audio.md
-│       ├── 📁 src
-│       │   ├── main.c
-│       │   ├── game.c / game.h
-│       │   ├── scenes.c / scenes.h
-│       │   ├── story.c / story.h
-│       │   ├── minigame.c / minigame.h
-│       │   ├── room.c / room.h
-│       │   ├── ui.c / ui.h
-│       │   ├── assets.c / assets.h
-│       │   └── audio_manager.c / audio_manager.h
-│       ├── re7.exe
-│       ├── re7_novo.exe
-│       ├── save.dat
-│       └── recorde.dat
-│
-├── 📁 src
-│   └── test.gitkeep
-│
-├── .gitignore
-└── README.md
-```
+O desenvolvimento do Re:7 está organizado em dois repositórios complementares, que armazenam diferentes etapas do projeto, seus códigos-fonte, documentação e materiais de desenvolvimento.
+
+## 📚 Repositório de documentação e entregas
+
+🔗 **Repositório:** [projeto2-squad2](https://github.com/anaritamoura/projeto2-squad2)
+
+Este repositório concentra a documentação geral do Projeto Integrador e os artefatos desenvolvidos ao longo das disciplinas.
+
+Entre seus principais conteúdos estão:
+
+- **`docs/diagramas/`:** diagramas de atividades das histórias de usuário US01 a US16.
+- **`docs/prototipos/`:** protótipos Lo-Fi e materiais de documentação organizados por história de usuário.
+- **`assets/`:** imagens, identidade visual e evidências do projeto.
+- **`CONTRIBUTING.md`:** orientações para configuração do ambiente e contribuição com o projeto.
+- **`entrega_pif/re7/`:** núcleo do jogo desenvolvido para a entrega de PIF, utilizando C e Raylib.
+
+A versão do jogo em `entrega_pif/re7/` possui uma estrutura modular, com arquivos responsáveis pelo gerenciamento do jogo, cenas, narrativa, quarto, minijogos, interface, recursos gráficos e áudio.
+
+Também existe a pasta `ato1-senha/`, que contém uma implementação isolada do minijogo da senha, incluindo arquivos de código e um programa de testes próprio.
+
+## 🎮 Repositório do jogo integrado
+
+🔗 **Repositório:** [RE7](https://github.com/romaiziul/RE7)
+
+🔗 **Endereço para clonagem:** https://github.com/romaiziul/RE7.git
+
+Este repositório concentra a versão integrada do jogo, organizada principalmente na pasta `re7-REL1/`.
+
+Sua estrutura apresenta uma organização mais segmentada do código, com módulos específicos para cada ato e para os sistemas compartilhados.
+
+Principais componentes:
+
+- **`src/atos/ato1/`:** implementação do primeiro ato, incluindo o desafio de senha e sua integração com a narrativa.
+- **`src/atos/ato2/`:** implementação do segundo ato, incluindo a corrida e os acontecimentos do reencontro na escola.
+- **`src/atos/ato3/`:** implementação do terceiro ato, incluindo a lógica proposicional e o minijogo Entre as Linhas.
+- **`src/core/`:** gerenciamento central do jogo e das cenas.
+- **`src/engine/`:** gerenciamento de interface, recursos gráficos e áudio.
+- **`src/systems/`:** sistemas de sala, tokens e barra de energia da IA.
+- **`src/minigames/`:** módulos relacionados aos minijogos.
+- **`src/dev/`:** ferramentas e funcionalidades do modo de desenvolvimento.
+- **`assets/`:** recursos gráficos, personagens, cenários, músicas e efeitos sonoros organizados por ato.
+- **`docs/roteiro/`:** roteiros do Ato 1, Ato 2, Ato 3, epílogo e visão geral da narrativa.
+- **`testes/`:** arquivos destinados aos testes de funcionalidades e captura de telas.
+- **`build.ps1`:** script utilizado para compilar o jogo.
+
+O repositório também disponibiliza dois modos de compilação: o modo normal, que gera `re7.exe`, e o modo de desenvolvimento, que gera `re7_dev.exe` e disponibiliza ferramentas adicionais para testes.
+
+## 🔄 Relação entre os repositórios
+
+Os dois repositórios fazem parte do mesmo projeto, mas possuem finalidades diferentes.
+
+O `projeto2-squad2` preserva os registros acadêmicos, documentação, protótipos, evidências e o núcleo do jogo desenvolvido para PIF.
+
+O `RE7` concentra a evolução e integração do jogo completo, com os três atos, seus respectivos minijogos, sistemas compartilhados, recursos e testes.
+
+Assim, para consultar a documentação e os artefatos das entregas, utilize o `projeto2-squad2`. Para acompanhar o código da versão integrada e realizar novas contribuições ao jogo, utilize o `RE7`.
 
 ---
 
@@ -442,8 +477,10 @@ Para a próxima sprint, a proposta é registrar cada sessão com três informaç
 * 🎥 **Screencast do Núcleo em C (PIF):** [Assistir demonstração](https://drive.google.com/file/d/1cgYbGEYNcb32-t48MkWrdA1o_scuL_fV/view?usp=sharing)
 * 📋 **Jira:** [Acessar Jira](https://csprj-adsr-2p-e2.atlassian.net/jira/software/c/projects/PI2/boards/2?atlOrigin=eyJpIjoiMWEwODM2MTk4OTJhNDA4NDliMWQ0OWIxOGRmMmU0NzciLCJwIjoiaiJ9)
 * 📋 **Trello:** [Acessar Board](https://trello.com/b/t0u8Iplf)
-* 💻 **Repositório:** [Acessar repositório](https://github.com/anaritamoura/projeto2-squad2)
 * 🎨 **Protótipo Lo-fi:** [Acessar no Figma](https://www.figma.com/proto/SOWkT7Av6D6rrZESX9XgtQ/Prot%C3%B3tipo---FDS---Entrega-2?node-id=95-194&p=f&t=YOhw8Vmu5wDwYyXY-0&scaling=contain&content-scaling=fixed&page-id=95%3A101&starting-point-node-id=95%3A194&show-proto-sidebar=1)
+* 💻 **Repositório de documentação e entregas:** [Acessar projeto2-squad2](https://github.com/anaritamoura/projeto2-squad2)
+* 🎮 **Repositório do jogo integrado:** [Acessar RE7](https://github.com/romaiziul/RE7)
+* 📘 **Guia de contribuição:** [Consultar CONTRIBUTING.md](CONTRIBUTING.md)
 
 ---
 
