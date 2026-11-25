@@ -119,7 +119,9 @@ O desenvolvimento do projeto é acompanhado por meio das ferramentas de gerencia
 
 🔗 **Trello:** [Acessar Trello](https://trello.com/b/t0u8Iplf)
 
-📘 **Guia de contribuição:** consulte o [CONTRIBUTING.md](CONTRIBUTING.md) para conhecer as orientações de configuração do ambiente, compilação e execução do jogo, organização de branches, commits, pull requests, testes e registro da programação em pares.
+Para conhecer as orientações de configuração do ambiente, compilação e execução do jogo, organização de branches, commits, pull requests, testes e registro da programação em pares, consulte o seguinte link:
+
+📘 **Guia de contribuição:** [CONTRIBUTING.md](CONTRIBUTING.md)
 
 **Última atualização:** 25/11/2026
 
@@ -203,11 +205,15 @@ As telas e os fluxos estão organizados por história em [`docs/prototipos`](doc
 
 ## 🆕 Novas histórias de usuário — Sprint 3
 
+As histórias de usuário US17, US19, US20, US21, US24 e US25 foram definidas após a etapa de elaboração dos diagramas de classe e protótipos Lo-Fi. Por esse motivo, não possuem esses artefatos, tendo suas funcionalidades desenvolvidas diretamente no jogo, com base nas necessidades identificadas durante o desenvolvimento.
+
+**Legenda:** N/A (*Not Applicable*) — Não se aplica. Indica que o artefato não foi elaborado para a respectiva história de usuário.
+
 ### 🏫 Ato 2 — Reencontro na escola (Epic 8)
 
 | Story | Descrição | Modelagem | Protótipo | Status |
 |---|---|:---:|:---:|:---:|
-| `US17` | Vivenciar o reencontro no corredor da escola | — | — | — |
+| `US17` | Vivenciar o reencontro no corredor da escola | N/A | N/A | ✅ |
 
 ---
 
@@ -215,9 +221,9 @@ As telas e os fluxos estão organizados por história em [`docs/prototipos`](doc
 
 | Story | Descrição | Modelagem | Protótipo | Status |
 |---|---|:---:|:---:|:---:|
-| `US19` | Descobrir a senha do computador por meio de lógica proposicional | — | — | 🔄 |
-| `US20` | Visualizar as pistas e os avisos do desafio de senha | — | — | — |
-| `US21` | Receber a oferta de ajuda da IA após três erros no desafio de senha | — | — | — |
+| `US19` | Descobrir a senha do computador por meio de lógica proposicional | N/A | N/A | ✅ |
+| `US20` | Visualizar as pistas e os avisos do desafio de senha | N/A | N/A | ✅ |
+| `US21` | Receber a oferta de ajuda da IA após três erros no desafio de senha | N/A | N/A | ✅ |
 
 ---
 
@@ -225,8 +231,8 @@ As telas e os fluxos estão organizados por história em [`docs/prototipos`](doc
 
 | Story | Descrição | Modelagem | Protótipo | Status |
 |---|---|:---:|:---:|:---:|
-| `US24` | Escolher as palavras do discurso da protagonista | — | — | — |
-| `US25` | Digitar as palavras e acompanhar o resultado do discurso | — | — | 🔄 |
+| `US24` | Escolher as palavras do discurso da protagonista | N/A | N/A | ✅ |
+| `US25` | Digitar as palavras e acompanhar o resultado do discurso | N/A | N/A | ✅ |
 
 ---
 
@@ -343,17 +349,6 @@ Este relato foi elaborado retrospectivamente, com base nas experiências dos par
 | US12 — Música ambiente por cena | Juliana e Luiz Mario | Presencial, na faculdade | Dev / Dev | Implementação do reprodutor de áudio. |
 | US13 — Efeitos sonoros | Ana Rita e Luiz Mario | Presencial, na faculdade | Dev / Dev | Inserção dos áudios no código do jogo. |
 
-### Sprint 3
-
-| História | Dupla | Formato | Papéis desempenhados | Trabalho realizado |
-|---|---|---|---|---|
-| US17 — Vivenciar o reencontro no corredor da escola |  |  |  | Definição da composição visual do corredor, dos personagens e da sequência dos diálogos. Implementação do cenário em C/Raylib e integração das falas à caixa de diálogo existente. |
-| US19 — Descobrir a senha do computador por meio de lógica proposicional |  |  |  | Implementação do desafio de senha dividido em duas etapas: seleção dos caracteres correspondentes às pistas e organização dos caracteres conforme as proposições lógicas para formar a senha Y2K7. |
-| US20 — Visualizar as pistas e os avisos do desafio de senha |  |  |  | Implementação da exibição permanente das pistas, do indicador de etapa, dos avisos temporários e da barra de tokens da IA durante o desafio. |
-| US21 — Receber a oferta de ajuda da IA após três erros no desafio de senha |  |  |  | Implementação da oferta de ajuda da IA após três erros na segunda etapa, incluindo o consumo de token e a revelação das posições dos caracteres Y e K. |
-| US24 — Escolher as palavras do discurso da protagonista |  |  |  | Implementação da seleção das palavras incompletas do discurso, com alternativas de resposta e possibilidade de utilizar a ajuda da IA. |
-| US25 — Digitar as palavras e acompanhar o resultado do discurso |  |  |  | Implementação da etapa de digitação das palavras embaralhadas, com cronômetro, acompanhamento do progresso, feedback visual e sonoro e apresentação do resultado final conforme o desempenho do jogador. |
-
 ## Experiência e aprendizados
 
 A organização da US08 foi um ponto positivo do trabalho em dupla. O acompanhamento e o revezamento permitiram discutir a implementação durante o desenvolvimento.
@@ -361,6 +356,25 @@ A organização da US08 foi um ponto positivo do trabalho em dupla. O acompanham
 A principal dificuldade foi dividir a implementação dos sons entre diferentes duplas e integrar as partes ao jogo. Essa experiência indicou a necessidade de combinar previamente as responsabilidades e os pontos de integração do código.
 
 Para a próxima sprint, a proposta é registrar cada sessão com três informações: **dupla, tarefa realizada e resultado**, além de associar o trabalho à história e ao commit ou pull request correspondente.
+
+### Sprint 3
+
+| História | Dupla | Formato | Papéis desempenhados | Trabalho realizado |
+|---|---|---|---|---|
+| US17 — Vivenciar o reencontro no corredor da escola | Vitória | Individual, remoto | Dev | Definição da composição visual do corredor, dos personagens e da sequência dos diálogos. Implementação do cenário em C/Raylib e integração das falas à caixa de diálogo existente. |
+| US19 — Descobrir a senha do computador por meio de lógica proposicional | Aline e Ana Rita | Remoto, com compartilhamento de tela | Dev / Dev | Implementação do desafio de senha dividido em duas etapas: seleção dos caracteres correspondentes às pistas e organização dos caracteres conforme as proposições lógicas para formar a senha Y2K7. |
+| US20 — Visualizar as pistas e os avisos do desafio de senha | Aline e Ana Rita | Remoto, com compartilhamento de tela | Dev / Dev | Implementação da exibição permanente das pistas, do indicador de etapa, dos avisos temporários e da barra de tokens da IA durante o desafio. |
+| US21 — Receber a oferta de ajuda da IA após três erros no desafio de senha | Aline e Ana Rita | Remoto, com compartilhamento de tela | Dev / Dev | Implementação da oferta de ajuda da IA após três erros na segunda etapa, incluindo o consumo de token e a revelação das posições dos caracteres Y e K. |
+| US24 — Escolher as palavras do discurso da protagonista | Juliana e Luiz Mario | Remoto, com compartilhamento de tela | Dev / Dev | Implementação da seleção das palavras incompletas do discurso, com alternativas de resposta e possibilidade de utilizar a ajuda da IA. |
+| US25 — Digitar as palavras e acompanhar o resultado do discurso | Juliana e Luiz Mario | Remoto, com compartilhamento de tela | Dev / Dev | Implementação da etapa de digitação das palavras embaralhadas, com cronômetro, acompanhamento do progresso, feedback visual e sonoro e apresentação do resultado final conforme o desempenho do jogador. |
+
+## Experiência e aprendizados
+
+A implementação das histórias de usuário da Sprint 3 permitiu avançar em funcionalidades importantes do jogo, como o desafio da senha (US19, US20 e US21), o reencontro no corredor da escola (US17) e o discurso da protagonista (US24 e US25). O desenvolvimento dessas funcionalidades contribuiu para a integração e evolução do jogo.
+
+Um dos desafios foi implementar histórias que não possuíam diagramas de classe ou protótipos Lo-Fi previamente elaborados, exigindo que as decisões fossem tomadas diretamente durante o desenvolvimento. Essa experiência reforçou a importância do planejamento, da organização do código e da comunicação entre os integrantes para garantir a integração das funcionalidades.
+
+O trabalho realizado durante a sprint contribuiu para consolidar os conhecimentos adquiridos ao longo do projeto e reforçou a importância do trabalho colaborativo, da adaptação durante o desenvolvimento e do registro das atividades realizadas.
 
 ---
 
@@ -463,7 +477,6 @@ Assim, para consultar a documentação e os artefatos das entregas, utilize o `p
 * 🎥 **Screencast do Núcleo em C (PIF):** [Assistir demonstração](https://drive.google.com/file/d/1cgYbGEYNcb32-t48MkWrdA1o_scuL_fV/view?usp=sharing)
 * 📋 **Jira:** [Acessar Jira](https://csprj-adsr-2p-e2.atlassian.net/jira/software/c/projects/PI2/boards/2?atlOrigin=eyJpIjoiMWEwODM2MTk4OTJhNDA4NDliMWQ0OWIxOGRmMmU0NzciLCJwIjoiaiJ9)
 * 📋 **Trello:** [Acessar Board](https://trello.com/b/t0u8Iplf)
-* 💻 **Repositório:** [Acessar repositório](https://github.com/anaritamoura/projeto2-squad2)
 * 🎨 **Protótipo Lo-fi:** [Acessar no Figma](https://www.figma.com/proto/SOWkT7Av6D6rrZESX9XgtQ/Prot%C3%B3tipo---FDS---Entrega-2?node-id=95-194&p=f&t=YOhw8Vmu5wDwYyXY-0&scaling=contain&content-scaling=fixed&page-id=95%3A101&starting-point-node-id=95%3A194&show-proto-sidebar=1)
 * 💻 **Repositório de documentação e entregas:** [Acessar projeto2-squad2](https://github.com/anaritamoura/projeto2-squad2)
 * 🎮 **Repositório do jogo integrado:** [Acessar RE7](https://github.com/romaiziul/RE7)
