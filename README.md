@@ -321,6 +321,12 @@ Durante as sprints, a equipe realizou sessões de programação em pares, remota
 
 Este relato foi elaborado retrospectivamente, com base nas experiências dos participantes.
 
+## 📋 Quadro de Gestão — Sprint 3
+
+Registro visual do quadro de gestão utilizado para acompanhar as tarefas, a organização da sprint e o progresso do desenvolvimento do projeto.
+
+![Quadro de gestão da Sprint 3](https://drive.google.com/drive/folders/1JemoLrRxBiMwtZaFwbBVuvdMI3xDCNB2?usp=sharing)
+
 ## Contribuições por sprint
 
 ### Sprint 1
