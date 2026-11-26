@@ -378,6 +378,25 @@ O trabalho realizado durante a sprint contribuiu para consolidar os conhecimento
 
 ---
 
+### 🎬 Screencasts
+
+- [Screencast completo](https://drive.google.com/file/d/1E4zoEDjGyj-_PHOTH5YXoOC8qdVMXJyi/view?usp=drive_link)
+- [Screencast final](https://drive.google.com/file/d/1BO8MSiHjHS3PGawnr-k0SyUEHtUU-1G1/view?usp=sharing)
+- [Screencast completo — Final Ruim](https://drive.google.com/file/d/10Xi_E1tp2Wxc-0yrgBMibe7rFYUldsYL/view?usp=sharing)
+
+### 🧪 Testes — Desafio de Oratória
+
+Os vídeos demonstram diferentes possibilidades de execução do desafio de oratória, incluindo escolhas da jogadora, utilização da ajuda da IA e os finais possíveis.
+
+| Cenário | Vídeo |
+|---|---|
+| Final Ruim — opção -1 - por tempo | [Assistir](https://drive.google.com/file/d/1UQBihoi9SJdezRZmkzo4-5nR67x8Rh7s/view?usp=sharing) |
+| Final Ruim — opção -1 - erro |  [Assistir](https://drive.google.com/file/d/1cmv_ctwcl4Hd1Wx_plYARLGzaCF6p15U/view?usp=sharing) |
+| Final Ruim — tentar sozinha | [Assistir](https://drive.google.com/file/d/14m2NKKSH8wWzWGBnW2WaSerSvlSh6hOQ/view?usp=sharing) |
+| Final Bom — tentar sozinha | [Assistir](https://drive.google.com/file/d/1HTqn0KaP2YxdoIvEJjAC4fi2YGhZwcWm/view?usp=sharing) |
+| Final Bom — opção -1 | [Assistir](https://drive.google.com/file/d/1nADtsZ9nBWASzHuejuO1qKf5vUEHl3vY/view?usp=sharing) |
+| Final Ruim — IA lê o papel | [Assistir](https://drive.google.com/file/d/1rS1vuvc0SoiQi6lVcAC8EFQOoABuCLT-/view?usp=sharing) |
+
 <a id="equipe"></a>
 # 👥 Equipe
 
